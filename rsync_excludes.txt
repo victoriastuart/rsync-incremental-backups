@@ -1,0 +1,209 @@
+# ==============================================================================
+#          file: /home/victoria/backups/rsync/rsync_excludes.txt
+#        author: Victoria A. Stuart
+#       created: ancient (2008?)
+#       version: 01
+# last modified: 2020-05-01 08:42:16 -0700 (PST)
+#      versions:
+#         * v01 : this
+# ==============================================================================
+
+
+# VICTORIA [ home/victoria/ ]:
+
+# /mnt/Vancouver/programming/rdb/postgres/bak/
+# /mnt/Vancouver/programming/rdb/postgres/postgresdb/data/
+/mnt/Vancouver/programming/rdb/postgres/bak/pg_dumpall.2019.05.02
+/mnt/Vancouver/programming/rdb/postgres/bak/pg_output.txt
+
+# TO SEE DISK USAGE (e.g.):
+# du 2>/dev/null /home/victoria/ -d 1 -h | sort -h; beep
+
+/home/victoria/shortcuts
+## CANNOT APPEND COMMENTS TO EXCLUDE LINES; COMMENTS MUST BE ON SEPARATE LINES, THUSLY:
+## just a link to /mnt/Vancouver/:
+/home/victoria/Vancouver
+## just a link to /home/victoria/ .bashrc (note extra space in link):
+/home/victoria/ .bashrc
+## just a link to /home/victoria/.config/ (note extra space in link):
+/home/victoria/ .config
+## just a link to /home/victoria/.hidden (note extra space in link):
+/home/victoria/ .hidden
+## just a link to /home/victoria/.jupyter/ (note extra space in link):
+/home/victoria/ .jupyter
+## just a link to /home/victoria/.local/ (note extra space in link):
+/home/victoria/ .local
+/home/victoria/backups/KeePassX2/keepassx2.csv
+/home/victoria/backups/KeePassX2/test.csv
+/home/victoria/downloads
+#/home/victoria/Downloads
+/home/victoria/Desktop
+/home/victoria/Dropbox
+/home/victoria/PDF
+## just a link to /mnt/Vancouver/PERSAGEN:
+/home/victoria/Persagen
+## just a link to /mnt/Vancouver/shortcuts/ :
+/home/victoria/shortcuts
+#/home/victoria/temp
+/home/victoria/Ubuntu One
+/home/victoria/.adobe
+/home/victoria/.allennlp
+/home/victoria/.android
+/home/victoria/.audacity-data
+/home/victoria/.avidemux
+/home/victoria/.avidemux6
+/home/victoria/.bintray
+/home/victoria/.bower
+/home/victoria/.bundle
+/home/victoria/.byobu
+# This (/home/victoria/.cache) was huge, ~29 GB, 2020-04-28:
+/home/victoria/.cache
+/home/victoria/.cache/thumbnails
+/home/victoria/.cache/mozilla/firefox/olbf2h93.default/thumbnails
+/home/victoria/.recently-used*
+/home/victoria/.cmake
+/home/victoria/.com.privateinternetaccess.vpn
+/home/victoria/.conda
+/home/victoria/.cargo
+/home/victoria/.electron
+/home/victoria/.flair
+/home/victoria/.gem
+/home/victoria/.getmail
+/home/victoria/.gvfs
+/home/victoria/.ivy2
+/home/victoria/.julia
+/home/victoria/.keras
+/home/victoria/.kindred
+/home/victoria/.IdeaIC*
+/home/victoria/.local/share/Trash
+/home/victoria/.m2
+/home/victoria/.mozilla/firefox/olbf2h93.default/Cache
+/home/victoria/.noble
+/home/victoria/.npm.old.delete
+/home/victoria/.opera/thumbnails
+/home/victoria/.mozilla/firefox/olbf2h93.default/thumbnails
+/home/victoria/.pkg-cache
+/home/victoria/.purple
+/home/victoria/.PyCharm201*
+/home/victoria/.pytorch_pretrained_bert
+/home/victoria/.recoll/xapiandb
+/home/victoria/.sbt
+/home/victoria/.scispacy
+/home/victoria/linux/apps/SecondLife
+/home/victoria/.Rhistory
+/home/victoria/.thumbnails
+/home/victoria/.thumb
+/home/victoria/.thumbnails
+/home/victoria/.tor-browser-en
+/home/victoria/.Trash
+/home/victoria/.wine
+/home/victoria/untitled
+/home/victoria/untitled-1.txt
+/home/victoria/untitled2
+/home/victoria/untitled3
+/home/victoria/untitled4
+/home/victoria/untitled5
+/home/victoria/Untitled Document 1
+/home/victoria/Untitled Document 2
+/home/victoria/Untitled Document 3
+/home/victoria/Untitled Document 4
+/home/victoria/Untitled Document 5
+# /home/victoria/venv ~15 GB (trivial), 2020-04-28:
+# /home/victoria/venv
+#
+# VANCOUVER [ /mnt/Vancouver/ ]:
+#
+# 2020-04-28: du 2>/dev/null apps-old -d 0 -h >> 322 GB
+/mnt/Vancouver/apps-old
+/mnt/Vancouver/byzanz capture*
+/mnt/Vancouver/Carmine/carm_mp3
+/mnt/Vancouver/downloads
+# 2020-04-28: re-enabled exclusion of "" as (e.g.) "/mnt/Vancouver/Downloads/downloads.archived" was ~1.6 TB !
+# du 2>/dev/null /mnt/Vancouver/Downloads/downloads.archived -d 0 -h  >> 1.6 TB
+/mnt/Vancouver/Downloads
+/mnt/Vancouver/Downloads/downloading
+/mnt/Vancouver/Downloads/downloads
+/mnt/Vancouver/Downloads/downloads.new
+/mnt/Vancouver/Downloads/downloads.new.temp
+/mnt/Vancouver/Downloads/downloads-temp
+/mnt/Vancouver/Downloads/downloads-yt
+/mnt/Vancouver/Downloads/misc
+/mnt/Vancouver/Downloads/_mpv_playlist
+/mnt/Vancouver/Downloads/trash
+/mnt/Vancouver/Dropbox
+## just a link to /mnt/Vancouver/.hidden (note extra space in link):
+/mnt/Vancouver/ .hidden
+/mnt/Vancouver/lost+found
+## just a link to /home/victoria/Mail/ :
+/mnt/Vancouver/Mail
+/mnt/Vancouver/miscellaneous/.Finance/Statements, Accounting/banking.ods
+/mnt/Vancouver/miscellaneous/.Finance/Statements, Accounting/*.ods
+/mnt/Vancouver/miscellaneous/.Finance/Statements, Accounting/old.tar.gz
+/mnt/Vancouver/miscellaneous/.Finance/Statements, Accounting/*.tar
+/mnt/Vancouver/miscellaneous/.Finance/Statements, Accounting/*.gz
+/mnt/Vancouver/miscellaneous/pix
+/mnt/Vancouver/miscellaneous/Sex/Sex - Downloaded
+/mnt/Vancouver/movie
+/mnt/Vancouver/Music - Dups (dupeGuru)
+## just a link to /home/victoria/PDF/ :
+/mnt/Vancouver/node_modules
+/mnt/Vancouver/PDF
+/mnt/Vancouver/PERSONAL/Clipboards/Internet Accounts.txt
+/mnt/Vancouver/shortcuts/Clipboards/Internet Accounts.txt
+/mnt/Vancouver/tarfiles.tar
+#/mnt/Vancouver/temp
+#/mnt/Vancouver/tmp
+/mnt/Vancouver/tmp-sql
+#/mnt/Vancouver/untitled
+#/mnt/Vancouver/Untitled Document 1
+/mnt/Vancouver/.Trash-0
+/mnt/Vancouver/.Trash-1000
+#
+# FILE SYSTEM [ / ]:
+#
+/.snapshots
+/.Trash
+/.Trash-0
+*/.[T,t]rash
+/bin
+/usr/bin
+/boot
+/cdrom
+/dev
+#/etc
+#/home
+/home/lost+found
+/kdeinit*
+/klauncher*
+/lib
+/lib32
+/lib64
+/libx32
+/lost+found
+## NOTE! WANT TO INCLUDE '/mnt/Vancouver', so DON'T list '/mnt' [top-level, only]
+#/mnt
+/mnt/Backups
+/mnt/Music
+/mnt/Music_backups
+/mnt/Music_Backups
+#/opt
+/proc
+/root
+/run
+/sbin
+/selinux
+/srv
+/swapfile
+/sys
+/temp
+/tmp
+/usr
+/usr/bin
+/usr/lib
+/initrd.img
+/initrd.img.old
+/var
+/var/lock
+/var/run
+/vmlinuz
+/vmlinuz.old
