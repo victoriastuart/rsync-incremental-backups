@@ -81,3 +81,5 @@ Filesystem      Size  Used Avail Use% Mounted on
 
 [victoria@victoria rsync_backups]$ 
 ```
+
+* Comment re: folder dates, e.g. monthly snapshots, scheduled in `crontab` on the first day of each month.
