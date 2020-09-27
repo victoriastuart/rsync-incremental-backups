@@ -3,11 +3,11 @@
 # vim: syntax=sh autoindent tabstop=4 shiftwidth=4 expandtab softtabstop=4 textwidth=220
 export LANG=C.UTF-8
 # =============================================================================
-#          file: /home/victoria/backups/backups/rsync/rsync_backups_hourly.sh
+#          file: /home/victoria/backups/rsync/rsync_backups_hourly.sh
 #         title: HOURLY rsync backup script
 #       created: 2020-04-27
 #       version: 05
-# last modified: 2020-05-17 08:46:17 -0700 (PST)
+# last modified: 2020-09-27 09:38:31 -0700 (PST)
 #      versions:
 #         * v01: inaugural
 #         * v02: debugging; added rsync PID concurrency check (mutt notification if existing rsync process)
@@ -336,7 +336,7 @@ printf '%s----------------------------------------\nCumulative disk use:\n'
 # Sort by size (sort -h):
 # du 2>/dev/null -h -d 1 /mnt/Backups/rsync_backups/ | sort -h
 # Sort by path (sort):
-du 2>/dev/null -h -d 1 /mnt/Backups/rsync_backups/ | sort
+# du 2>/dev/null -h -d 1 /mnt/Backups/rsync_backups/ | sort
 df -h /mnt/Backups/rsync_backups/
 # printf '%s----------------------------------------\n'
 
@@ -362,4 +362,3 @@ COMMENT
 # tail -n 100 /home/victoria/backups/rsync/rsync.log
 # pwd
 # ============================================================================
-
