@@ -83,3 +83,9 @@ Filesystem      Size  Used Avail Use% Mounted on
 ```
 
 * Comment re: folder dates, e.g. monthly snapshots, scheduled in `crontab` on the first day of each month.
+
+```bash
+# m   h          dom    mon    dow    user        nice          command
+# 1 am (01:00 on day 1 of every month, Jan-Dec):
+# 0   1          1      1-12   *      root        nice -n 19    /home/victoria/backups/rsync/rsync_backups_monthly.sh
+```
