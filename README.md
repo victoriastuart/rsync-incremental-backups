@@ -39,4 +39,37 @@ Filesystem      Size  Used Avail Use% Mounted on
 /dev/sda1       4.6T  1.4T  3.0T  32% /mnt/Backups
 ```
 
+---
 
+**Update** [2020-09-27]
+
+* I've been running these scripts fot ~4 months now with no issues.  A months ago I changed hourly backups to 04:00 (4 am), 12:00 (noon), 18:00 (6 pm) -- thus capturing morning work (04:00 - 12:00), afternoon work (12:00-18:00), and evening work (18:00-04:00).
+
+* While useful for testing, the `du` (disk use) utility is time-consuming, especially on large volumes (e.g. 5 TB HDD), so I commented it out.
+
+* Here are the backups, to date (parent-level directories only, shown here).
+
+```bash
+[victoria@victoria rsync_backups]$ date; pwd; ls -l
+Sun Sep 27 09:26:34 AM PDT 2020
+/mnt/Backups/rsync_backups
+total 68
+drwxr-xr-x 6 root root 4096 Sep 26 04:05 daily.0
+drwxr-xr-x 6 root root 4096 Sep 25 04:05 daily.1
+drwxr-xr-x 6 root root 4096 Sep 24 04:05 daily.2
+drwxr-xr-x 6 root root 4096 Sep 23 04:06 daily.3
+drwxr-xr-x 6 root root 4096 Sep 22 04:05 daily.4
+drwxr-xr-x 6 root root 4096 Sep 21 04:10 daily.5
+drwxr-xr-x 6 root root 4096 Sep 20 04:09 daily.6
+drwxr-xr-x 6 root root 4096 Sep 27 04:07 hourly.0
+drwxr-xr-x 6 root root 4096 Sep 26 18:07 hourly.1
+drwxr-xr-x 6 root root 4096 Sep 26 12:08 hourly.2
+drwxr-xr-x 6 root root 4096 Aug  2 04:09 monthly.00
+drwxr-xr-x 6 root root 4096 Jun 28 04:09 monthly.01
+drwxr-xr-x 6 root root 4096 May 31 04:09 monthly.02
+drwxr-xr-x 6 root root 4096 Sep 13 04:09 weekly.0
+drwxr-xr-x 6 root root 4096 Sep  6 04:09 weekly.1
+drwxr-xr-x 6 root root 4096 Aug 30 04:09 weekly.2
+drwxr-xr-x 6 root root 4096 Aug 23 04:09 weekly.3
+[victoria@victoria rsync_backups]$ 
+```
