@@ -26,8 +26,8 @@ export LANG=C.UTF-8
 ## SCHEDULE (/etc/crontab):
 
 # /home/victoria/backups/rsync/rsync_backups_hourly.sh
-#    hourly.x : 4 am | 6 pm | midnight {hourly.0 | hourly.1 | hourly.2}
-#               hourly.0 always the most recent hourly.x; hourly.2 always the oldest hourly.x
+#    hourly.x : 4 am | noon | 6 pm  (hourly.0 | hourly.1 | hourly.2)
+#               hourly.0 always the most recent "hourly.x;" hourly.2 always the oldest "hourly.x"
 
 # /home/victoria/backups/rsync/rsync_backups_daily.sh
 #     daily.x : 3 am daily (daily.0 .. daily.6)
