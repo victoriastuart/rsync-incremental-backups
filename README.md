@@ -79,5 +79,30 @@ Filesystem      Size  Used Avail Use% Mounted on
   Filesystem      Size  Used Avail Use% Mounted on
   /dev/sda1       4.6T  1.5T  2.9T  34% /mnt/Backups
 
+[victoria@victoria rsync_backups]$
+
+# ----------------------------------------------------------------------------
+
+[victoria@victoria rsync_backups]$ ls -ltr
+
+  total 68
+  drwxr-xr-x 6 root root 4096 May 31 04:09 monthly.02
+  drwxr-xr-x 6 root root 4096 Jun 28 04:09 monthly.01
+  drwxr-xr-x 6 root root 4096 Aug  2 04:09 monthly.00
+  drwxr-xr-x 6 root root 4096 Aug 23 04:09 weekly.3
+  drwxr-xr-x 6 root root 4096 Aug 30 04:09 weekly.2
+  drwxr-xr-x 6 root root 4096 Sep  6 04:09 weekly.1
+  drwxr-xr-x 6 root root 4096 Sep 13 04:09 weekly.0
+  drwxr-xr-x 6 root root 4096 Sep 20 04:09 daily.6
+  drwxr-xr-x 6 root root 4096 Sep 21 04:10 daily.5
+  drwxr-xr-x 6 root root 4096 Sep 22 04:05 daily.4
+  drwxr-xr-x 6 root root 4096 Sep 23 04:06 daily.3
+  drwxr-xr-x 6 root root 4096 Sep 24 04:05 daily.2
+  drwxr-xr-x 6 root root 4096 Sep 25 04:05 daily.1
+  drwxr-xr-x 6 root root 4096 Sep 26 04:05 daily.0
+  drwxr-xr-x 6 root root 4096 Sep 26 18:07 hourly.2
+  drwxr-xr-x 6 root root 4096 Sep 27 04:07 hourly.1
+  drwxr-xr-x 6 root root 4096 Sep 27 12:10 hourly.0
+
 [victoria@victoria rsync_backups]$ 
 ```
