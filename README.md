@@ -104,5 +104,16 @@ Filesystem      Size  Used Avail Use% Mounted on
   drwxr-xr-x 6 root root 4096 Sep 27 04:07 hourly.1
   drwxr-xr-x 6 root root 4096 Sep 27 12:10 hourly.0
 
-[victoria@victoria rsync_backups]$ 
-```
+---
+
+**Update** [2021-02-17]
+
+At the end of January 2021 I had a catastrophic failure of my (2014 vintage) 5 TB Western Digital hard disk drive (HDD), the one I use for non-system work, data, no-system apps (cloned GitHub repos; ...).
+
+I was unable to repair the failed HDD (`fsck` | `testdisk` | ...).  I bought a new 6 TB replacement HDD and the restoration of the data (note trailing slash / on the source directory and the lack of a slash on the destination directory) proceeded without incident (it took a few hours due to the volume of data).
+
+  ```time sudo rsync -aq /mnt/Backups/rsync_backups/hourly.0/mnt/Vancouver/ /mnt/Vancouver```
+
+Since that time (after editing my `/etc/fstab` to reflect the new drive/partition) I have been operating normally with the new HDD / restored data.
+
+Despite the complexities (learning curve) in learning about / implementing a rsync-based backup system (setup | unit tests are crucial as are occassional checks of the backups to verify they are working properly), when needed those backups are essential for data recovery.
