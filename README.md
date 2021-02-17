@@ -41,7 +41,7 @@ Filesystem      Size  Used Avail Use% Mounted on
 
 ---
 
-**Update** [2020-09-27]
+**Update 1/2** [2020-09-27]
 
 * I've been running these scripts fot ~4 months now with no issues.  A months ago I changed hourly backups to 04:00 (4 am), 12:00 (noon), 18:00 (6 pm) -- thus capturing morning work (04:00 - 12:00), afternoon work (12:00-18:00), and evening work (18:00-04:00).
 
@@ -106,7 +106,7 @@ Filesystem      Size  Used Avail Use% Mounted on
 
 ---
 
-**Update** [2021-02-17]
+**Update 2/2** [2021-02-17]
 
 At the end of January 2021 I had a catastrophic failure of my (2014 vintage) 5 TB Western Digital hard disk drive (HDD), the one I use for non-system work, data, no-system apps (cloned GitHub repos; ...).
 
