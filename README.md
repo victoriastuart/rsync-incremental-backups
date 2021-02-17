@@ -109,7 +109,7 @@ Filesystem      Size  Used Avail Use% Mounted on
 
 **Update 2/2** [2021-02-17]
 
-At the end of January 2021 I had a catastrophic failure of my (2014 vintage) 5 TB Western Digital hard disk drive (HDD), the one I use for non-system work, data, no-system apps (cloned GitHub repos; ...).
+At the end of January 2021 I had a catastrophic failure of my (2014 vintage) 5 TB hard disk drive (HDD), the one I use for routine work, data analysis and procedssing, programming, non-system apps (cloned GitHub repos; ...), personal data ...
 
 I was unable to repair the failed HDD (`fsck` | `testdisk` | ...).  I bought a new 6 TB replacement HDD and the restoration of the data (note trailing slash / on the source directory and the lack of a slash on the destination directory) proceeded without incident (it took a few hours due to the volume of data).
 
