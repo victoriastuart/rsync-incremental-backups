@@ -115,7 +115,7 @@ I was unable to repair the failed HDD (`fsck` | `testdisk` | ...).  I bought a n
 
   ```time sudo rsync -aq /mnt/Backups/rsync_backups/hourly.0/mnt/Vancouver/ /mnt/Vancouver```
 
-This took a few hours due to the volume of data).
+[This took a few hours due to the volume of data.]
 
 After editing my `/etc/fstab` with respect to the new drive/partition, I have been operating normally with the new HDD / restored data.
 
