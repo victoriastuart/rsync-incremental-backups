@@ -109,16 +109,12 @@ Filesystem      Size  Used Avail Use% Mounted on
 
 **Update 2/2** [2021-02-17]
 
-At the end of January 2021 I had a catastrophic failure of my (2014 vintage) 5 TB hard disk drive (HDD), the one I use for routine work, data analysis and processing, programming, webdev / domains, non-system apps (cloned GitHub repos; ...), personal data (gpg-encrypted, of course <font style="font-size:14pt">😉</font>), ...
-
-<font style="font-size:18pt">🤯</font>
+At the end of January 2021 I had a catastrophic failure of my (2014 vintage) 5 TB hard disk drive (HDD), the one I use for routine work, data analysis and processing, programming, webdev / domains, non-system apps (cloned GitHub repos; ...), personal data (gpg-encrypted, of course ;-), ...
 
 I was unable to repair the failed HDD (`fsck` | `testdisk` | ...).  I bought a new 6 TB replacement HDD and the restoration of the data (note trailing slash / on the source directory and the lack of a slash on the destination directory) proceeded without incident (it took a few hours due to the volume of data).
 
   ```time sudo rsync -aq /mnt/Backups/rsync_backups/hourly.0/mnt/Vancouver/ /mnt/Vancouver```
 
 Since that time (after editing my `/etc/fstab` to reflect the new drive/partition) I have been operating normally with the new HDD / restored data.
-
-<font style="font-size:18pt">😅</font>
 
 Despite the complexities (learning curve) in learning about / implementing a rsync-based backup system (setup | unit tests are crucial as are occassional checks of the backups to verify they are working properly), when needed those backups are essential for data recovery.
